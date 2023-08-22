@@ -1,0 +1,33 @@
+{
+  "name": "-89950_se_wpg-2023-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for the 2024 WPG website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vince-M/89950_SE_WPG-2023-Landing-page.git"
+  },
+  "author": "Vince Mendella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vince-M/89950_SE_WPG-2023-Landing-page/issues"
+  },
+  "homepage": "https://github.com/Vince-M/89950_SE_WPG-2023-Landing-page#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "autoprefixer": "^10.4.15",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.28",
+    "sass": "^1.66.1"
+  }
+}
