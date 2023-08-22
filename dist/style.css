@@ -1,0 +1,2 @@
+:root{--font-text:"League Spartan",sans-serif}html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{font-family:var(--font-text);margin:0;padding:0}.container{margin:0 auto;max-width:87.5rem}h1,h2,h3{margin-top:0}a,a:active,a:visited{text-decoration:none}body{background-color:red;background-size:cover;height:100vh}
+/*# sourceMappingURL=style.css.map */
