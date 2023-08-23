@@ -1,8 +1,26 @@
 @use '../util' as *;
 
 body {
-  // background-image: url("../img/");
+  background-image: url("../img/background_mobile_430x931-min.jpg");
   background-size: cover;
   height: 100vh;
-  background-color: red;
+  background-color: var(--white);
+  transition: all 300ms ease-in-out;
+
+    @include breakpoint (medium) {
+      background-image: url("../img/background_desktop_1920x1080-min.jpg");
+      background-size: cover;
+    }
+}
+
+section {
+  margin-top: rem(40);
+}
+
+.heading {
+  color: var(--white);
+  font-size: rem(68);
+  line-height: .9;
+  text-transform: uppercase;
+  text-align: center;
 }
