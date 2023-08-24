@@ -7,11 +7,19 @@ body {
   background-color: var(--white);
   transition: all 300ms ease-in-out;
 
-    @include breakpoint (medium) {
+    @include breakpoint (large) {
       background-image: url("../img/background_desktop_1920x1080-min.jpg");
       background-size: cover;
+      background-position: center;
+      left: 50%;
+      padding: 0;
+      position: relative;
+      transform: translateX(-50%);
+      overflow: hidden;
+      clear: both;
+  }
     }
-}
+
 
 section {
   margin-top: rem(40);
