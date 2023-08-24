@@ -17,6 +17,10 @@ body {
   font-family: var(--font-text);
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   margin: rem(40) auto 0;
@@ -24,5 +28,13 @@ body {
   @include breakpoint(large) {
     max-width: rem(1400);
     width: 80%;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+
+  @include breakpoint(large) {
+    margin-left: 20%;
   }
 }

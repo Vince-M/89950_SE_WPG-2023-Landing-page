@@ -17,10 +17,37 @@ section {
   margin-top: rem(40);
 }
 
+.header {
+  margin-bottom: rem(125);
+}
+
 .heading {
   color: var(--white);
-  font-size: rem(68);
+  font-size: rem(60);
   line-height: .9;
   text-transform: uppercase;
   text-align: center;
+  text-shadow: 0 rem(5) rem(6) var(--richBlack);
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 0 rem(20);
+}
+
+.dates {
+  font-size: rem(23);
+}
+
+.hotel {
+  font-size: rem(22);
+  text-transform: uppercase;
+}
+
+.dates,
+.hotel {
+  line-height: 1.35;
+  color: var(--white);
+  text-shadow: 0 rem(3) rem(3) var(--richBlack);
+  margin: 0 0 rem(20) rem(10);
 }
