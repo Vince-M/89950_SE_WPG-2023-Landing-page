@@ -27,7 +27,6 @@ img {
 
   @include breakpoint(large) {
     max-width: rem(1400);
-    width: 80%;
   }
 }
 
