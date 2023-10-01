@@ -37,13 +37,18 @@ img {
 
 .wrapper {
   margin: 0 auto;
+  
 
-  @include breakpoint(large) {
-    margin-left: 30%;
+  @include breakpoint (medium) {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
+  }
+
+  @include breakpoint(large) {
+    margin-left: 30%;
+
   }
 }
